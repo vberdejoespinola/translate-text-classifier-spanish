@@ -1,2 +1,11 @@
 .DS_Store
-.ipynb_checkpoints
+.env
+.idea
+
+old_code
+results
+scripts/local
+scripts/.ipynb_checkpoints
+data/local
+datasets/local
+
