@@ -2,6 +2,7 @@
 .env
 .idea
 
+.venv*
 old_code
 results
 scripts/local
