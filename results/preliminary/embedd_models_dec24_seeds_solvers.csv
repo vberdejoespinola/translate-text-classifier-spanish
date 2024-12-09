@@ -1,0 +1,11 @@
+,Classifier,Feature_extraction,Weighting,CV,Text_length,Solver,F1_tr_cv,F1_tr,F1_ts,Precision_tr_cv,Precision_tr,Precision_ts,Recall_tr_cv,Recall_tr,Recall_ts,Seed
+0,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=42, solver='liblinear')",distiluse-base-multilingual-cased-v1,Weighted,2,Title_Abstract,liblinear,0.169,0.275,0.211,0.102,0.16,0.122,0.49,1.0,0.769,42
+0,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=36, solver='liblinear')",distiluse-base-multilingual-cased-v1,Weighted,2,Title_Abstract,liblinear,0.169,0.275,0.211,0.102,0.16,0.122,0.49,1.0,0.769,36
+0,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=42)",distiluse-base-multilingual-cased-v1,Weighted,2,Title_Abstract,lbfgs,0.172,0.278,0.208,0.104,0.162,0.12,0.49,1.0,0.769,42
+0,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=42)",paraphrase-multilingual-mpnet-base-v2,Weighted,2,Title_Abstract,lbfgs,0.209,0.354,0.254,0.132,0.215,0.155,0.51,1.0,0.692,42
+0,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=36)",paraphrase-multilingual-mpnet-base-v2,Weighted,2,Title_Abstract,lbfgs,0.209,0.354,0.254,0.132,0.215,0.155,0.51,1.0,0.692,36
