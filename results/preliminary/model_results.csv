@@ -1,0 +1,113 @@
+,Classifier,Feature_extraction,Weighting,CV,Text_length,F1_tr_cv,F1_tr,F1_ts,Precision_tr_cv,Precision_tr,Precision_ts,Recall_tr_cv,Recall_tr,Recall_ts
+0,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",TfidfVectorizer(),"RandomUnderSampler(random_state=42, sampling_strategy=1)",2,Title_Abstract,0.056,0.075,0.059,0.029,0.039,0.031,0.918,1.0,0.769
+1,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",TfidfVectorizer(),"RandomUnderSampler(random_state=42, sampling_strategy=1)",2,Title_Abstract_Main,0.056,0.075,0.059,0.029,0.039,0.031,0.918,1.0,0.769
+2,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",CountVectorizer(),"RandomUnderSampler(random_state=42, sampling_strategy=1)",2,Title_Abstract,0.065,0.091,0.072,0.034,0.048,0.038,0.878,1.0,0.769
+3,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",CountVectorizer(),"RandomUnderSampler(random_state=42, sampling_strategy=1)",2,Title_Abstract_Main,0.065,0.091,0.072,0.034,0.048,0.038,0.878,1.0,0.769
+4,"LogisticRegression(random_state=42, solver='liblinear')",TfidfVectorizer(),"RandomUnderSampler(random_state=42, sampling_strategy=1)",2,Title_Abstract,0.075,0.112,0.076,0.039,0.059,0.04,0.857,1.0,0.692
+5,SVC(kernel='linear'),TfidfVectorizer(),"RandomUnderSampler(random_state=42, sampling_strategy=1)",2,Title_Abstract_Main,0.076,0.118,0.079,0.04,0.062,0.042,0.857,1.0,0.692
+6,"LogisticRegression(random_state=42, solver='liblinear')",TfidfVectorizer(),"RandomUnderSampler(random_state=42, sampling_strategy=1)",2,Title_Abstract_Main,0.075,0.112,0.076,0.039,0.059,0.04,0.857,1.0,0.692
+7,SVC(kernel='linear'),TfidfVectorizer(),"RandomUnderSampler(random_state=42, sampling_strategy=1)",2,Title_Abstract,0.076,0.118,0.079,0.04,0.062,0.042,0.857,1.0,0.692
+8,"LogisticRegression(random_state=42, solver='liblinear')",CountVectorizer(),"RandomUnderSampler(random_state=42, sampling_strategy=1)",2,Title_Abstract,0.057,0.094,0.068,0.03,0.049,0.036,0.735,1.0,0.692
+9,"LogisticRegression(random_state=42, solver='liblinear')",CountVectorizer(),"RandomUnderSampler(random_state=42, sampling_strategy=1)",2,Title_Abstract_Main,0.057,0.094,0.068,0.03,0.049,0.036,0.735,1.0,0.692
+10,SVC(kernel='linear'),CountVectorizer(),"RandomUnderSampler(random_state=42, sampling_strategy=1)",2,Title_Abstract,0.072,0.121,0.069,0.038,0.065,0.037,0.673,1.0,0.538
+11,SVC(kernel='linear'),CountVectorizer(),"RandomUnderSampler(random_state=42, sampling_strategy=1)",2,Title_Abstract_Main,0.072,0.121,0.069,0.038,0.065,0.037,0.673,1.0,0.538
+12,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=42, solver='liblinear')",paraphrase-multilingual-mpnet-base-v2,Weighted,2,Title_Abstract,0.214,0.354,0.24,0.134,0.215,0.145,0.531,1.0,0.692
+13,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=42, solver='liblinear')",paraphrase-multilingual-mpnet-base-v2,Weighted,2,Title_Abstract_Main,0.216,0.346,0.231,0.135,0.209,0.138,0.531,1.0,0.692
+14,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=42, solver='liblinear')",distiluse-base-multilingual-cased-v1,Weighted,2,Title_Abstract_Main,0.17,0.281,0.208,0.103,0.163,0.12,0.49,1.0,0.769
+15,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=42, solver='liblinear')",distiluse-base-multilingual-cased-v1,Weighted,2,Title_Abstract,0.169,0.275,0.211,0.102,0.16,0.122,0.49,1.0,0.769
+16,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",paraphrase-multilingual-mpnet-base-v2,"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract,0.235,0.737,0.235,0.184,0.583,0.19,0.327,1.0,0.308
+17,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",paraphrase-multilingual-mpnet-base-v2,"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract_Main,0.235,0.737,0.235,0.184,0.583,0.19,0.327,1.0,0.308
+18,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",distiluse-base-multilingual-cased-v1,"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract,0.25,0.57,0.255,0.203,0.398,0.167,0.327,1.0,0.538
+19,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",distiluse-base-multilingual-cased-v1,"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract,0.25,0.57,0.255,0.203,0.398,0.167,0.327,1.0,0.538
+20,"SVC(class_weight={0: 0.506253782529756, 1: 40.475806451612904}, kernel='linear',
+    probability=True)",paraphrase-multilingual-mpnet-base-v2,Weighted,2,Title_Abstract,0.242,0.59,0.2,0.2,0.419,0.148,0.306,1.0,0.308
+21,"SVC(class_weight={0: 0.506253782529756, 1: 40.475806451612904}, kernel='linear',
+    probability=True)",distiluse-base-multilingual-cased-v1,Weighted,2,Title_Abstract,0.214,0.403,0.281,0.165,0.253,0.176,0.306,1.0,0.692
+22,"SVC(class_weight={0: 0.506253782529756, 1: 40.475806451612904}, kernel='linear',
+    probability=True)",paraphrase-multilingual-mpnet-base-v2,Weighted,2,Title_Abstract_Main,0.24,0.59,0.2,0.197,0.419,0.148,0.306,1.0,0.308
+23,"SVC(class_weight={0: 0.506253782529756, 1: 40.475806451612904}, kernel='linear',
+    probability=True)",distiluse-base-multilingual-cased-v1,Weighted,2,Title_Abstract_Main,0.2,0.403,0.323,0.154,0.253,0.204,0.286,1.0,0.769
+24,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",paraphrase-multilingual-mpnet-base-v2,,2,Title_Abstract,0.154,0.529,0.118,0.312,0.947,0.25,0.102,0.367,0.077
+25,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",paraphrase-multilingual-mpnet-base-v2,,2,Title_Abstract_Main,0.156,0.551,0.125,0.333,0.95,0.333,0.102,0.388,0.077
+26,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=42, solver='liblinear')",TfidfVectorizer(),Weighted,2,Title_Abstract_Main,0.138,0.852,0.357,0.444,0.742,0.333,0.082,1.0,0.385
+27,SVC(kernel='linear'),CountVectorizer(),ADASYN(random_state=42),2,Title_Abstract,0.14,1.0,0.111,0.5,1.0,0.2,0.082,1.0,0.077
+28,SVC(kernel='linear'),CountVectorizer(),ADASYN(random_state=42),2,Title_Abstract_Main,0.14,1.0,0.111,0.5,1.0,0.2,0.082,1.0,0.077
+29,"SVC(class_weight={0: 0.506253782529756, 1: 40.475806451612904}, kernel='linear',
+    probability=True)",CountVectorizer(),Weighted,2,Title_Abstract,0.115,1.0,0.133,1.0,1.0,0.5,0.061,1.0,0.077
+30,"LogisticRegression(random_state=42, solver='liblinear')",CountVectorizer(),"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract,0.111,1.0,0.222,0.6,1.0,0.4,0.061,1.0,0.154
+31,SVC(kernel='linear'),CountVectorizer(),,2,Title_Abstract,0.115,1.0,0.133,1.0,1.0,0.5,0.061,1.0,0.077
+32,SVC(kernel='linear'),CountVectorizer(),"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract_Main,0.115,1.0,0.133,1.0,1.0,0.5,0.061,1.0,0.077
+33,"SVC(class_weight={0: 0.506253782529756, 1: 40.475806451612904}, kernel='linear',
+    probability=True)",CountVectorizer(),Weighted,2,Title_Abstract_Main,0.107,1.0,0.19,0.429,1.0,0.25,0.061,1.0,0.154
+34,"LogisticRegression(random_state=42, solver='liblinear')",CountVectorizer(),"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract_Main,0.111,1.0,0.222,0.6,1.0,0.4,0.061,1.0,0.154
+35,SVC(kernel='linear'),CountVectorizer(),,2,Title_Abstract_Main,0.107,1.0,0.19,0.429,1.0,0.25,0.061,1.0,0.154
+36,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=42, solver='liblinear')",CountVectorizer(),Weighted,2,Title_Abstract,0.109,1.0,0.211,0.5,1.0,0.333,0.061,1.0,0.154
+37,SVC(kernel='linear'),CountVectorizer(),"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract,0.115,1.0,0.133,1.0,1.0,0.5,0.061,1.0,0.077
+38,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",CountVectorizer(),"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract_Main,0.078,1.0,0.133,1.0,1.0,0.5,0.041,1.0,0.077
+39,"LogisticRegression(random_state=42, solver='liblinear')",CountVectorizer(),ADASYN(random_state=42),2,Title_Abstract_Main,0.071,1.0,0.111,0.286,1.0,0.2,0.041,1.0,0.077
+40,"LogisticRegression(random_state=42, solver='liblinear')",CountVectorizer(),,2,Title_Abstract_Main,0.077,1.0,0.222,0.667,1.0,0.4,0.041,1.0,0.154
+41,"SVC(class_weight={0: 0.506253782529756, 1: 40.475806451612904}, kernel='linear',
+    probability=True)",TfidfVectorizer(),Weighted,2,Title_Abstract,0.078,0.99,0.133,1.0,0.98,0.5,0.041,1.0,0.077
+42,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",CountVectorizer(),ADASYN(random_state=42),2,Title_Abstract_Main,0.077,1.0,0.118,0.667,1.0,0.25,0.041,1.0,0.077
+43,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",TfidfVectorizer(),ADASYN(random_state=42),2,Title_Abstract,0.078,1.0,0.143,1.0,1.0,1.0,0.041,1.0,0.077
+44,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=42, solver='liblinear')",TfidfVectorizer(),Weighted,2,Title_Abstract,0.077,0.916,0.2,0.667,0.845,0.286,0.041,1.0,0.154
+45,"LogisticRegression(random_state=42, solver='liblinear')",TfidfVectorizer(),"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract_Main,0.077,0.97,0.2,0.667,0.942,0.286,0.041,1.0,0.154
+46,SVC(kernel='linear'),TfidfVectorizer(),"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract_Main,0.078,1.0,0.143,1.0,1.0,1.0,0.041,1.0,0.077
+47,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",TfidfVectorizer(),"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract_Main,0.078,1.0,0.143,1.0,1.0,1.0,0.041,1.0,0.077
+48,"LogisticRegression(random_state=42, solver='liblinear')",TfidfVectorizer(),ADASYN(random_state=42),2,Title_Abstract_Main,0.078,0.942,0.2,1.0,0.891,0.286,0.041,1.0,0.154
+49,SVC(kernel='linear'),TfidfVectorizer(),ADASYN(random_state=42),2,Title_Abstract_Main,0.078,1.0,0.143,1.0,1.0,1.0,0.041,1.0,0.077
+50,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",TfidfVectorizer(),ADASYN(random_state=42),2,Title_Abstract_Main,0.078,1.0,0.143,1.0,1.0,1.0,0.041,1.0,0.077
+51,"LogisticRegression(class_weight={0: 0.506253782529756, 1: 40.475806451612904},
+                   random_state=42, solver='liblinear')",CountVectorizer(),Weighted,2,Title_Abstract_Main,0.075,1.0,0.222,0.5,1.0,0.4,0.041,1.0,0.154
+52,"LogisticRegression(random_state=42, solver='liblinear')",TfidfVectorizer(),"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract,0.077,0.97,0.2,0.667,0.942,0.286,0.041,1.0,0.154
+53,SVC(kernel='linear'),TfidfVectorizer(),ADASYN(random_state=42),2,Title_Abstract,0.078,1.0,0.143,1.0,1.0,1.0,0.041,1.0,0.077
+54,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",CountVectorizer(),ADASYN(random_state=42),2,Title_Abstract,0.077,1.0,0.118,0.667,1.0,0.25,0.041,1.0,0.077
+55,"LogisticRegression(random_state=42, solver='liblinear')",TfidfVectorizer(),ADASYN(random_state=42),2,Title_Abstract,0.078,0.942,0.2,1.0,0.891,0.286,0.041,1.0,0.154
+56,"SVC(class_weight={0: 0.506253782529756, 1: 40.475806451612904}, kernel='linear',
+    probability=True)",TfidfVectorizer(),Weighted,2,Title_Abstract_Main,0.078,0.98,0.235,1.0,0.961,0.5,0.041,1.0,0.154
+57,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",CountVectorizer(),"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract,0.078,1.0,0.133,1.0,1.0,0.5,0.041,1.0,0.077
+58,"LogisticRegression(random_state=42, solver='liblinear')",CountVectorizer(),ADASYN(random_state=42),2,Title_Abstract,0.071,1.0,0.111,0.286,1.0,0.2,0.041,1.0,0.077
+59,"LogisticRegression(random_state=42, solver='liblinear')",CountVectorizer(),,2,Title_Abstract,0.078,1.0,0.133,1.0,1.0,0.5,0.041,1.0,0.077
+60,SVC(kernel='linear'),TfidfVectorizer(),"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract,0.078,1.0,0.143,1.0,1.0,1.0,0.041,1.0,0.077
+61,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",TfidfVectorizer(),"RandomOverSampler(random_state=42, sampling_strategy='not majority')",2,Title_Abstract,0.078,1.0,0.143,1.0,1.0,1.0,0.041,1.0,0.077
+62,SVC(kernel='linear'),TfidfVectorizer(),,2,Title_Abstract_Main,0.04,0.393,0.0,1.0,1.0,0.0,0.02,0.245,0.0
+63,SVC(kernel='linear'),TfidfVectorizer(),,2,Title_Abstract,0.04,0.492,0.0,1.0,1.0,0.0,0.02,0.327,0.0
+64,SVC(kernel='linear'),paraphrase-multilingual-mpnet-base-v2,,2,Title_Abstract,0.04,0.151,0.0,1.0,1.0,0.0,0.02,0.082,0.0
+65,SVC(kernel='linear'),paraphrase-multilingual-mpnet-base-v2,,2,Title_Abstract_Main,0.04,0.151,0.0,1.0,1.0,0.0,0.02,0.082,0.0
+66,"LogisticRegression(random_state=42, solver='liblinear')",paraphrase-multilingual-mpnet-base-v2,,2,Title_Abstract_Main,0.04,0.04,0.0,1.0,1.0,0.0,0.02,0.02,0.0
+67,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",distiluse-base-multilingual-cased-v1,,2,Title_Abstract,0.038,0.367,0.267,0.25,1.0,1.0,0.02,0.224,0.154
+68,"LogisticRegression(random_state=42, solver='liblinear')",paraphrase-multilingual-mpnet-base-v2,,2,Title_Abstract,0.04,0.04,0.0,1.0,1.0,0.0,0.02,0.02,0.0
+69,"LogisticRegression(random_state=42, solver='liblinear')",TfidfVectorizer(),,2,Title_Abstract_Main,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+70,"LogisticRegression(random_state=42, solver='liblinear')",distiluse-base-multilingual-cased-v1,,2,Title_Abstract,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+71,"MLPClassifier(activation='logistic', batch_size=16, hidden_layer_sizes=(),
+              random_state=42)",distiluse-base-multilingual-cased-v1,,2,Title_Abstract_Main,0.0,0.367,0.267,0.0,1.0,1.0,0.0,0.224,0.154
+72,SVC(kernel='linear'),distiluse-base-multilingual-cased-v1,,2,Title_Abstract_Main,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+73,"LogisticRegression(random_state=42, solver='liblinear')",distiluse-base-multilingual-cased-v1,,2,Title_Abstract_Main,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+74,"LogisticRegression(random_state=42, solver='liblinear')",TfidfVectorizer(),,2,Title_Abstract,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+75,SVC(kernel='linear'),distiluse-base-multilingual-cased-v1,,2,Title_Abstract,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
