@@ -14,11 +14,11 @@ Large results are available in the links below due to their size.
 
 **Overview of scripts**
 
-1.pre_process_main_text - Pre-process raw data. Download Raw Data to run this script.
-2.feature_engineering - Remove stopwords, unwanted characters, lemmatize. Use the output of script 1 to run this script.
-3.model_training - Train all model variants. Use the output of script 2 to run this script.
-4.best_model_svm_12 -  Train model, error analysis, explainable AI with SHAP values. Download Clean Data to run this script.
-4.best_model_svm_24 -  Train model, error analysis, explainable AI with SHAP values. Download Clean Data to run this script.
+1.pre_process_main_text - Pre-process raw data. Download Raw Data to run this script.\n
+2.feature_engineering - Remove stopwords, unwanted characters, lemmatize. Use the output of script 1 to run this script.\n
+3.model_training - Train all model variants. Use the output of script 2 to run this script.\n
+4.best_model_svm_12 -  Train model, error analysis, explainable AI with SHAP values. Download Clean Data to run this script.\n
+4.best_model_svm_24 -  Train model, error analysis, explainable AI with SHAP values. Download Clean Data to run this script.\n
 4.best_model_svm_36 -  Train model, error analysis, explainable AI with SHAP values. Download Clean Data to run this script.
 4.best_model_svm_42 -  Train model, error analysis, explainable AI with SHAP values. Download Clean Data to run this script.
 5.visualisation - Create heatmap. Use model scores csv (output of any script 4) to reproduce this. 
