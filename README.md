@@ -8,7 +8,7 @@ An overview of the scripts and a list of the packages used can be found at the b
 Before running any code files, please download the relevant text data.<br />
 The links below provide access to the data.<br />
 
-additional data are available in the links below due to their size.<br />
+Additional data are available in the links below due to their size.<br />
 
 **Overview of scripts**
 
@@ -24,7 +24,7 @@ additional data are available in the links below due to their size.<br />
 **Data requirements**
 
 Raw Data:https://doi.org/10.6084/m9.figshare.29126096<br />
-Processed Data: 10.6084/m9.figshare.29127965<br />
+Processed Data: https://doi.org/10.6084/m9.figshare.29127965<br />
 Clean Data: https://doi.org/10.6084/m9.figshare.29036840<br />
 
 **Library requirements**
