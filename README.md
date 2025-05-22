@@ -5,8 +5,7 @@ This repository contains the code needed to reproduce the analyses found within
 All analysis was conducted using Python 3.13.3< br / >
 An overview of the scripts and a list of the packages used can be found at the bottom of this page.< br / >
 
-Data requirements< br / >
-Before running any code files, please download the relevant text data.< br / >
+Data requirements< br / >Before running any code files, please download the relevant text data.< br / >
 The links below provide access to the data.< br / >
 
 Figures relevant to the manuscript can be found in the results folder.< br / >
