@@ -5,7 +5,7 @@ This repository contains the code needed to reproduce the analyses found within
 All analysis was conducted using Python 3.13.3<br />
 An overview of the scripts and a list of the packages used can be found at the bottom of this page.<br />
 
-Before running any code files, please download the relevant text data.<br />
+Before running any script, please download the relevant text data.<br />
 The links below provide access to the data.<br />
 
 Additional data are available in the links below due to their size.<br />
@@ -23,9 +23,9 @@ Additional data are available in the links below due to their size.<br />
 
 **Data requirements**
 
-Raw Data:https://doi.org/10.6084/m9.figshare.29126096<br />
+Raw Data: https://doi.org/10.6084/m9.figshare.29126096<br />
 Processed Data: https://doi.org/10.6084/m9.figshare.29127965<br />
-Clean Data: https://doi.org/10.6084/m9.figshare.29036840<br />
+Clean Data: https: //doi.org/10.6084/m9.figshare.29036840<br />
 
 **Library requirements**
 
@@ -62,6 +62,6 @@ wordcloud==1.9.3<br />
 
 **Additional results**
 
-https://figshare.com/s/74145a9cf53329b69bd7<br />
+https://figshare.com/s/89df965ebf96e62bf1e3<br />
 https://figshare.com/s/74145a9cf53329b69bd7<br />
 https://figshare.com/s/0fa0886ef5734a77893c<br />
