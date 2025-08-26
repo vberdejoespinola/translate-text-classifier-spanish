@@ -8,7 +8,7 @@ An overview of the scripts and a list of the packages used can be found at the b
 Before running any script, please download the relevant text data.<br />
 The links below provide access to the data.<br />
 
-Additional data are available in the links below due to their size.<br />
+Additional results are available in the links below due to their size.<br />
 
 **Overview of scripts**
 
