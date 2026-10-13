@@ -2,7 +2,7 @@ This repository contains the code needed to reproduce the analyses found within
 
 **Spanish-language text classification for environmental evidence synthesis using multi-lingual pre-trained models**
 
-All analysis was conducted using Python 3.13.3<br />
+All analysis were conducted using Python 3.13.3<br />
 An overview of the scripts and a list of the packages used can be found at the bottom of this page.<br />
 
 Before running any script, please download the relevant text data.<br />
